@@ -14,6 +14,7 @@ type HydrationStrategies = {
 type LazyComponent<T> = DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }> & T
 
 interface _GlobalComponents {
+  'CadastroContent': typeof import("../../app/components/CadastroContent.vue")['default']
   'Carrossel': typeof import("../../app/components/Carrossel.vue")['default']
   'ContatoContent': typeof import("../../app/components/ContatoContent.vue")['default']
   'DoacaoCards': typeof import("../../app/components/DoacaoCards.vue")['default']
@@ -48,6 +49,7 @@ interface _GlobalComponents {
   'Html': typeof import("../../node_modules/nuxt/dist/head/runtime/components")['Html']
   'Body': typeof import("../../node_modules/nuxt/dist/head/runtime/components")['Body']
   'NuxtIsland': typeof import("../../node_modules/nuxt/dist/app/components/nuxt-island")['default']
+  'LazyCadastroContent': LazyComponent<typeof import("../../app/components/CadastroContent.vue")['default']>
   'LazyCarrossel': LazyComponent<typeof import("../../app/components/Carrossel.vue")['default']>
   'LazyContatoContent': LazyComponent<typeof import("../../app/components/ContatoContent.vue")['default']>
   'LazyDoacaoCards': LazyComponent<typeof import("../../app/components/DoacaoCards.vue")['default']>

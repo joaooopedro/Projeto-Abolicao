@@ -1,7 +1,7 @@
 
 /// <reference path="app.config.d.ts" />
 /// <reference path="runtime-config.d.ts" />
-/// <reference types="/Users/joao/Desktop/✌︎/faculdade/projeto abolicao/2026.1/Site Projeto Abolição Site/Projeto Abolição/Projeto Abolição/node_modules/@nuxt/nitro-server/dist/index.mjs" />
+/// <reference types="/Users/joao/Desktop/1/faculdade/projeto abolicao/2026.1/Site Projeto Abolição Site/Projeto Abolição/Projeto Abolição/node_modules/@nuxt/nitro-server/dist/index.mjs" />
 /// <reference path="nitro-middleware.d.ts" />
 
 import type { RuntimeConfig } from 'nuxt/schema'

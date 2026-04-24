@@ -29,7 +29,7 @@
             <img
               src="/images/doacao roupa img rep.png"
               alt="Exemplo de doação de roupas"
-              class="w-full h-full object-cover rounded-lg"
+              class="w-full h-full object-contain"
             />
           </div>
         </article>
@@ -49,11 +49,11 @@
           <p class="text-black text-justify font-['Space_Grotesk'] text-[16px] sm:text-[18px] font-normal leading-normal mb-2">
             Aceitamos alimentos não perecíveis para a montagem de cestas básicas (arroz, feijão, óleo, macarrão, etc.).
           </p>
-          <div class="mt-3 w-full h-44 sm:h-56 flex items-center justify-center overflow-hidden rounded-lg">
+          <div class="mt-3 w-full h-44 sm:h-56 flex items-center justify-center overflow-hidden rounded-lg ">
             <img
               src="/images/doacao comida img rep.png"
               alt="Exemplo de doação de alimentos"
-              class="w-full h-full object-cover rounded-lg"
+              class="w-full h-full object-contain"
             />
           </div>
         </article>
@@ -73,11 +73,11 @@
           <p class="text-black text-justify font-['Space_Grotesk'] text-[16px] sm:text-[18px] font-normal leading-normal mb-2">
             Cadernos, lápis, mochilas e brinquedos para apoiar o desenvolvimento de nossas crianças.
           </p>
-          <div class="mt-3 w-full h-44 sm:h-56 flex items-center justify-center overflow-hidden rounded-lg">
+          <div class="mt-3 w-full h-44 sm:h-56 flex items-center justify-center overflow-hidden rounded-lg ">
             <img
               src="/images/doacao material escolar rep.png"
               alt="Exemplo de material escolar"
-              class="w-full h-full object-cover rounded-lg"
+              class="w-full h-full object-contain"
             />
           </div>
         </article>

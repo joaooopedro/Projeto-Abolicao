@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full">
+  <section class="w-full" id="sobre">
     <div class="max-w-[1440px] mx-auto px-5 md:px-10 lg:px-[70px] py-16 md:py-24">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
         <div class="lg:sticky lg:top-24 lg:self-start">

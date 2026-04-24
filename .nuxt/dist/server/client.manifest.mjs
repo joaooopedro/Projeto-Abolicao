@@ -1,1 +1,1 @@
-export { default } from "file:///Users/joao/Desktop/%E2%9C%8C%EF%B8%8E/faculdade/projeto%20abolicao/2026.1/Site%20Projeto%20Abolic%CC%A7a%CC%83o%20Site/Projeto%20Abolic%CC%A7a%CC%83o/Projeto%20Aboli%C3%A7%C3%A3o/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
+export { default } from "file:///Users/joao/Desktop/1/faculdade/projeto%20abolicao/2026.1/Site%20Projeto%20Abolic%CC%A7a%CC%83o%20Site/Projeto%20Abolic%CC%A7a%CC%83o/Projeto%20Aboli%C3%A7%C3%A3o/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

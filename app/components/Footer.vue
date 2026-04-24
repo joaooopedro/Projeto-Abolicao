@@ -41,6 +41,7 @@
 
             <div class="flex flex-col gap-2 text-black font-['Poppins'] text-[13px] md:text-[14px] font-medium">
               <NuxtLink to="/doacoes" class="hover:text-[#FF8400] transition-colors">Doações</NuxtLink>
+              <NuxtLink to="/cadastro" class="hover:text-[#FF8400] transition-colors">Matricular</NuxtLink>
             </div>
           </div>
         </div>

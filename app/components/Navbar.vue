@@ -8,16 +8,16 @@
         <NuxtLink to="/" class="flex px-4 py-2 justify-center items-center gap-2 rounded-full font-['Space_Grotesk'] text-sm font-medium leading-tight transition-all duration-300 whitespace-nowrap" :class="Ativo('/') ? 'bg-black text-white' : 'bg-transparent text-white hover:bg-black/30'">
           Página Inicial
         </NuxtLink>
-        <a href="/#sobre" class="flex px-4 py-2 justify-center items-center gap-2 rounded-full font-['Space_Grotesk'] text-sm font-medium leading-tight transition-all duration-300 whitespace-nowrap bg-transparent text-white hover:bg-black/30">
-          Sobre
-        </a>
+        <NuxtLink to="/doacoes" class="flex px-4 py-2 justify-center items-center gap-2 rounded-full font-['Space_Grotesk'] text-sm font-medium leading-tight transition-all duration-300 whitespace-nowrap" :class="Ativo('/doacoes') ? 'bg-black text-white' : 'bg-transparent text-white hover:bg-black/30'">
+          Doações
+        </NuxtLink>
         <NuxtLink to="/contato" class="flex px-4 py-2 justify-center items-center gap-2 rounded-full font-['Space_Grotesk'] text-sm font-medium leading-tight transition-all duration-300 whitespace-nowrap" :class="Ativo('/contato') ? 'bg-black text-white' : 'bg-transparent text-white hover:bg-black/30'">
           Contato
         </NuxtLink>
       </div>
 
-      <NuxtLink to="/doacoes" class="hidden lg:flex px-5 py-3 items-center gap-2 rounded-xl border-2 border-[#191A23] text-[#191A23] font-['Space_Grotesk'] text-sm font-semibold leading-tight transition-all duration-300 hover:bg-[#191A23] hover:text-white whitespace-nowrap">
-        Faça uma doação →
+      <NuxtLink to="/cadastro" class="hidden lg:flex px-5 py-3 items-center gap-2 rounded-xl border-2 border-[#191A23] text-[#191A23] font-['Space_Grotesk'] text-sm font-semibold leading-tight transition-all duration-300 hover:bg-[#191A23] hover:text-white whitespace-nowrap">
+        Matricular →
       </NuxtLink>
 
       <button @click="MenuAberto = !MenuAberto" class="lg:hidden p-2 text-[#191A23] hover:bg-gray-100 rounded-lg transition-colors" :aria-label="MenuAberto ? 'Fechar menu' : 'Abrir menu'" :aria-expanded="MenuAberto">
@@ -50,16 +50,16 @@
             Página Inicial
           </NuxtLink>
 
-          <a href="/#sobre" @click="MenuAberto = false" class="flex px-4 py-3 rounded-lg font-['Space_Grotesk'] text-sm font-medium leading-tight transition-all duration-300 text-[#191A23] hover:bg-gray-100">
-            Sobre
-          </a>
+          <NuxtLink to="/doacoes" @click="MenuAberto = false" class="flex px-4 py-3 rounded-lg font-['Space_Grotesk'] text-sm font-medium leading-tight transition-all duration-300" :class="Ativo('/doacoes') ? 'bg-[#191A23] text-white' : 'text-[#191A23] hover:bg-gray-100'">
+            Doações
+          </NuxtLink>
 
           <NuxtLink to="/contato" @click="MenuAberto = false" class="flex px-4 py-3 rounded-lg font-['Space_Grotesk'] text-sm font-medium leading-tight transition-all duration-300" :class="Ativo('/contato') ? 'bg-[#191A23] text-white' : 'text-[#191A23] hover:bg-gray-100'">
             Contato
           </NuxtLink>
 
-          <NuxtLink to="/doacoes" @click="MenuAberto = false" class="flex px-4 py-3 mt-4 justify-center items-center gap-2 rounded-xl border-2 border-[#191A23] text-[#191A23] font-['Space_Grotesk'] text-sm font-semibold leading-tight transition-all duration-300 hover:bg-[#191A23] hover:text-white">
-            Faça uma doação →
+          <NuxtLink to="/cadastro" @click="MenuAberto = false" class="flex px-4 py-3 mt-4 justify-center items-center gap-2 rounded-xl border-2 border-[#191A23] text-[#191A23] font-['Space_Grotesk'] text-sm font-semibold leading-tight transition-all duration-300 hover:bg-[#191A23] hover:text-white">
+            Matricular →
           </NuxtLink>
         </div>
       </div>

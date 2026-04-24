@@ -14,6 +14,7 @@ type HydrationStrategies = {
 type LazyComponent<T> = DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }> & T
 
 
+export const CadastroContent: typeof import("../app/components/CadastroContent.vue")['default']
 export const Carrossel: typeof import("../app/components/Carrossel.vue")['default']
 export const ContatoContent: typeof import("../app/components/ContatoContent.vue")['default']
 export const DoacaoCards: typeof import("../app/components/DoacaoCards.vue")['default']
@@ -48,6 +49,7 @@ export const Head: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
+export const LazyCadastroContent: LazyComponent<typeof import("../app/components/CadastroContent.vue")['default']>
 export const LazyCarrossel: LazyComponent<typeof import("../app/components/Carrossel.vue")['default']>
 export const LazyContatoContent: LazyComponent<typeof import("../app/components/ContatoContent.vue")['default']>
 export const LazyDoacaoCards: LazyComponent<typeof import("../app/components/DoacaoCards.vue")['default']>

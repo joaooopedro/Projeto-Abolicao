@@ -1,9 +1,9 @@
-/// <reference types="@nuxt/image" />
 /// <reference types="@nuxt/eslint" />
-/// <reference types="@nuxtjs/tailwindcss" />
 /// <reference types="@nuxt/devtools" />
 /// <reference types="@nuxt/fonts" />
+/// <reference types="@nuxtjs/tailwindcss" />
 /// <reference types="@nuxt/telemetry" />
+/// <reference types="@nuxt/image" />
 /// <reference types="@nuxt/icon" />
 /// <reference path="types/builder-env.d.ts" />
 /// <reference path="types/plugins.d.ts" />
@@ -11,7 +11,7 @@
 /// <reference path="types/app.config.d.ts" />
 /// <reference path="types/runtime-config.d.ts" />
 /// <reference types="nuxt/app" />
-/// <reference types="/Users/joao/Desktop/✌︎/faculdade/projeto abolicao/2026.1/Site Projeto Abolição Site/Projeto Abolição/Projeto Abolição/node_modules/@nuxt/nitro-server/dist/index.mjs" />
+/// <reference types="/Users/joao/Desktop/1/faculdade/projeto abolicao/2026.1/Site Projeto Abolição Site/Projeto Abolição/Projeto Abolição/node_modules/@nuxt/nitro-server/dist/index.mjs" />
 /// <reference types="vue-router" />
 /// <reference path="types/middleware.d.ts" />
 /// <reference path="types/nitro-middleware.d.ts" />
